@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb"
-            targets: "MI-R3G"
+          - build_variant: "mt7628"
+            targets: "MI-3C"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
