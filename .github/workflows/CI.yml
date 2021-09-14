@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7628"
-            targets: "MI-3C"
+          - build_variant: "mt7620"
+            targets: "MI-3"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
