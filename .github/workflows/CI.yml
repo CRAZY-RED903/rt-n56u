@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7620"
-            targets: "PSG1218 MI-3"
+            targets: "MI-MINI"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
