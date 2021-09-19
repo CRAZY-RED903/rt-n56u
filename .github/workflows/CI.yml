@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7620"
-            targets: "MI-MINI"
+          - build_variant: "mt7621"
+            targets: "CR660x"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
