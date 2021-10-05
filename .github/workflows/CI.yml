@@ -26,6 +26,10 @@ jobs:
     strategy:
       matrix:
         include:
+          - build_variant: "mt7620"
+            targets: "PSG1218 NEWIFI-MINI MI-MINI MI-3"
+          - build_variant: "mt7621-usb"
+            targets: "MI-R3G NEWIFI3"        
           - build_variant: "mt7621"
             targets: "CR660x"
     steps:
