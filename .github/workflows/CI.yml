@@ -27,11 +27,8 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7620"
-            targets: "PSG1218 NEWIFI-MINI MI-MINI MI-3"
-          - build_variant: "mt7621-usb"
-            targets: "MI-R3G NEWIFI3"        
-          - build_variant: "mt7621"
-            targets: "CR660x"
+            targets: "PSG1218"
+
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
