@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621-usb"
-            targets: "XY-C1 MI-R3G NEWIFI3 "
+            targets: "NEWIFI3 "
 
     steps:
       - uses: actions/checkout@v2
