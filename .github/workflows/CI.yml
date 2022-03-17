@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb"
-            targets: "NEWIFI3 "
+          - build_variant: "mt7621"
+            targets: "RM2100 CR660x"
 
     steps:
       - uses: actions/checkout@v2
