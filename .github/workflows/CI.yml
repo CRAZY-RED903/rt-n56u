@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621"
-            targets: "K2P CR660x"
+          - build_variant: "mt7620"
+            targets: "MI-MINI"
 
     steps:
       - uses: actions/checkout@v2
