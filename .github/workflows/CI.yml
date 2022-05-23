@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7620"
-            targets: "MI-MINI"
+          - build_variant: "mt7621-usb"
+            targets: "MSG1500"
 
     steps:
       - uses: actions/checkout@v2
